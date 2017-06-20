@@ -1,0 +1,7 @@
+1, Aabpara Islamabad PK,Quantity;
+1,Register,69475;
+2,Bed,53152;
+3,Computers,64540;
+4,Laptops,48156;
+5,Play Station,49376;
+

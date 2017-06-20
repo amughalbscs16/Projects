@@ -1,0 +1,7 @@
+3,Clifton Karachi PK,Quantity;
+1,Register,75000;
+2,Bed,53500;
+3,Computers,65000;
+4,Laptops,48800;
+5,Play Station,50000;
+

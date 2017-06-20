@@ -1,0 +1,7 @@
+2, Airport Lahore PK,Quantity;
+1,Register,71725;
+2,Bed,53366;
+3,Computers,64720;
+4,Laptops,47880;
+5,Play Station,49698;
+
