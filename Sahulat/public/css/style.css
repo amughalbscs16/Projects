@@ -1,0 +1,567 @@
+/*Master CSS*/
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: white;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  height:100%;
+}
+#page{
+  position:relative;
+}
+/*Footer Css*/
+#footer {
+  overflow: hidden;
+  position:relative;
+  bottom:5px;
+  background-color:black;
+  border-radius: 5px;
+  text-align:center;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: inset 0px 0px 1px 3px rgba(0,0,0,.20);
+}
+#footerheadingrow{
+  color:white;
+  margin: 0
+  auto;
+  margin-top: 1%;
+  font-size: 20px;
+  font-family: Georgia;"
+}
+#footercolumn{
+  text-align: center;
+  color:white;
+  padding: 2%;
+}
+#footercolumn:hover{
+  background-color: #8c0d26;
+  color:white;
+}
+#copyrightrow{
+  color:white;
+  margin: 0 auto;
+  margin-bottom: -20px;
+  font-size: 15px;0
+  font-family: Georgia;
+}
+
+/*Header*/
+#header{
+  font-variant: small-caps;
+  color:white;
+}
+#header #logo {
+  background-color: black;
+  color:white;
+}
+#header a{
+  color:white;
+  text-decoration: none;
+}
+#header #navigation{
+  text-align:center;
+  background-color: black;
+}
+#navigation .selected{
+  border-radius:1px;
+  background-color: rgba(0,255,0,0.8);
+}
+#navigation #navbox{
+}
+#navigation #navbox:hover{
+  background-color: #8c0d26;
+  color:white;
+  border-radius: 5px;
+}
+#loginregister
+{
+  padding:15px;
+  background: linear-gradient(to right, rgba(52,12,28,0.1) , rgba(54,12,50,0.1) );
+  box-shadow: 0 0 15px #000000;
+  border-radius:10px;
+  float:center;
+  text-align:left;
+}
+/*Header CSS END*/
+
+/*SIDEBAR CSS START*/
+#sidebar {
+  box-shadow: inset 0px 0px 1px 3px rgba(0,0,0,.20);
+  font-variant: small-caps;
+  color:black;
+  background-white:white;
+  border-radius: 5px;
+  position:relative;
+}
+#sidebar .sidebox {
+  min-height:50px;
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,.20);
+  text-align: center;
+  padding: 5px;
+}
+#sidebar .selected
+{
+  border-radius: 5px;
+  background-color:rgba(0,255,0,0.4);
+}
+
+#sidebar .sidebox:hover
+{
+  border-radius: 5px;
+  background-color:#8c0d26;
+}
+#sidebar .subsidebox {
+  min-height:30px;
+  box-shadow: inset 0px 0px 0px 2px rgba(0,255,0,0.5);
+  text-align: center;
+  padding: 2px;
+}
+#sidebar .subsidebox:hover
+{
+  border-radius: 5px;
+  background-color:#8c0d26;
+}
+#sidebar a {
+  text-decoration: none;
+  font-variant: small-caps;
+  color:black;
+}
+#sidebar a:hover{
+  text-decoration: none;
+  font-variant: small-caps;
+  color:white;
+  background-color:#8c0d26;
+}
+
+#sidebartoggle{
+  color:black;
+}
+/*SIDEBAR CSS END*/
+
+/*PAGE CSS*/
+#search {
+  margin:2px;
+  background: #fff;
+}
+#content{
+  position:relative;
+  margin:0px;
+  padding: 0px;
+  background: #fff;
+  padding-bottom: 20px;
+}
+#pagedata
+{
+  overflow: auto;
+  padding-left: 10px;
+  position:relative;
+  align-content: center;
+}
+
+/*PAGE CSS END*/
+/*Classes CSS*/
+.left {
+  float:left;
+}
+.right {
+  float:right;
+}
+.center {
+  float:center;
+}
+.clearleft {
+  clear:left;
+}
+.clearright {
+  clear:right;
+}
+.clearboth {
+  clear:both;
+}
+#sidebartoggle img {
+  padding:0px;
+  width:70%;
+  height:39px;
+}
+@media only screen and (max-width: 400px) {
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+#navigation
+{
+  display:none;
+}
+
+#sidebar
+{
+  display:none;
+}
+
+#mobileservices{
+  display: block;
+}
+#desktopservices{
+  display: none;
+}
+}
+/*Media Queries*/
+@media only screen and (min-width: 401px) and (max-width: 800px) {
+/* For tablet: */
+.col-t-1 {width: 8.33%;}
+.col-t-2 {width: 16.66%;}
+.col-t-3 {width: 25%;}
+.col-t-4 {width: 33.33%;}
+.col-t-5 {width: 41.66%;}
+.col-t-6 {width: 50%;}
+.col-t-7 {width: 58.33%;}
+.col-t-8 {width: 66.66%;}
+.col-t-9 {width: 75%;}
+.col-t-10 {width: 83.33%;}
+.col-t-11 {width: 91.66%;}
+.col-t-12 {width: 100%;}
+#desktopservices{
+  display: none;
+}
+#mobileservices{
+  display: block;
+}
+}
+@media only screen and (min-width: 801px) {
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+#desktopservices{
+  display: block;
+}
+#mobileservices{
+  display: none;
+}
+}
+/*Page Specific CSS*/
+/* Full-width inputs */
+/*Page Specific CSS*/
+/* Full-width inputs */
+#loginregister
+{
+}
+#loginregister label
+{
+}
+#loginregister input[type=text], input[type=password], select {
+    width: 99%;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+/* Set a style for all buttons */
+#loginregister button, #loginregister input[type=file] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5px;
+}
+button[class=green50]
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 1px 1px;
+  margin: 2px 0;
+  border: none;
+  width: 50%;
+  border-radius: 5px;
+}
+button[class=red50]
+{
+  background-color: rgba(255,0,0,1);
+  color: white;
+  padding: 1px 1px;
+  margin: 2px 0;
+  border: none;
+  width: 50%;
+  border-radius: 5px;
+}
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+.table .row
+{
+  border-radius: 5px;
+  border: 1px rgba(0,0,0,0.2) solid;
+  overflow: hidden;
+}
+.table .row .header
+{
+font-variant: small-caps;
+background-color:rgba(0,255,0,0.3);
+}
+.table .column
+{
+  overflow: hidden;
+}
+.table .row .innerrow
+{
+  border: 2px rgba(0,0,0,0.0) solid;
+}
+#addedservices #column , .table .column{
+text-align:center;
+overflow: hidden;
+}
+#addedservices .header{
+background-color: rgba(0,255,0,0.3);
+border-radius: 2px;
+}
+#addedservices #row {
+border-radius: 5px;
+border: 1px rgba(0,0,0,0.2) solid;
+overflow: hidden;
+margin-top: 10px;
+}
+#choosefilebtn{
+
+}
+
+#saveservice{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5px;
+
+}
+
+
+/*Haris's styles start*/
+
+.hariscss img{
+  max-width: 100%;
+  max-height:100%;
+}
+.hariscss #logo{
+  object-fit: contain;
+}
+.hariscss .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.hariscss .mechheader {
+  opacity:0.75;
+
+  background-size: contain;
+  background-color: rgba(216, 229, 67, 1);
+  background-blend-mode: lighten;
+  color:black;
+  margin-bottom: 1%;
+}
+.hariscss .mechheader img{
+  width:100%;
+  height: auto;
+}
+.hariscss .profilepic img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.hariscss .profilepic{
+  text-align: center;
+  margin-left: 2%;
+}
+.hariscss .pskills p{
+  overflow: hidden;
+  float:left;
+  width: 100%;
+
+}
+.hariscss .pskills b:hover{
+  border-radius: 5px;
+  background-color:green;
+}
+
+.hariscss .info {
+  color:black;
+  text-align: center;
+  padding-left: 5%;
+  background-color: rgba(0,100,0,0.3);
+
+}
+
+.hariscss .button{
+  background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 1%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 0;
+
+    float:left;
+
+}
+.hariscss i{
+  text-align: center;
+
+}
+.hariscss .button:hover {
+    background-color: RoyalBlue;
+}
+.hariscss .chatbox{
+
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin:auto;
+
+}
+.hariscss .chatbox img{
+  height: 300px;
+  width: 100%;
+}
+
+.hariscss .checked{
+  color: blue;
+}
+.hariscss .electricheader{
+  border-radius:20px;
+  background-size: contain;
+  padding-bottom: 1%;
+  background-color: rgba(195, 219, 77, 1);
+  background-blend-mode: lighten;
+  /*background-color: purple;*/
+  color:black;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  text-align: center;
+}
+.hariscss .electricheader img{
+  width:100%;
+  height:auto;
+  border-radius:20px;
+}
+
+.hariscss .plumberheader{
+  border-radius:20px;
+  opacity:0.75;
+  background-size: contain;
+  background-color: rgba(157, 171, 231, 1);
+  background-blend-mode: lighten;
+  /*background-color: purple;*/
+  color:black;
+  margin-bottom: 1%;
+}
+.hariscss .plumberheader img{
+  width:100%;
+  height:auto;
+}
+.hariscss .carpenterheader{
+  border-radius:20px;
+  background-size: contain;
+  background-color:rgba(166, 105, 1, 0.5);
+  background-blend-mode: lighten;
+  /*background-color: purple;*/
+  color:black;
+  margin-bottom: 1%;
+}
+.hariscss .carpenterheader img{
+  width:100%;
+  height:auto;
+}
+.hariscss .storeheader{
+  border-radius:20px;
+  background-size: contain;
+  background-color: rgba(11, 78, 88, 0.6);
+  background-blend-mode: lighten;
+  /*background-color: purple;*/
+  color:black;
+  margin-bottom: 1%;
+}
+.hariscss .storeheader img{
+  width:100%;
+  height:auto;
+}
+.hariscss .mechanicheader{
+  border-radius:20px;
+  opacity:0.75;
+  background-size: contain;
+  background-color:rgba(250, 229, 0, 0.3);
+  background-blend-mode: lighten;
+  /*background-color: purple;*/
+  color:black;
+  margin-bottom: 1%;
+}
+.hariscss .mechanicheader img{
+  width:100%;
+  height:auto;
+}
+.hariscss .electricianheader{
+  border-radius:20px;
+  opacity:0.75;
+  background-size: contain;
+  background-color:rgba(123, 18, 92, 0.3);
+  background-blend-mode: lighten;
+  /*background-color: purple;*/
+  color:black;
+  margin-bottom: 1%;
+}
+.hariscss .electricianheader img{
+  width:100%;
+  height:auto;
+}
+.hariscss .laundryheader{
+  border-radius:20px;
+  background-size: contain;
+  padding-bottom: 1%;
+  background-color: rgba(5, 109, 235, 0.4);
+  background-blend-mode: lighten;
+  /*background-color: purple;*/
+  color:black;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  text-align: center;
+}
+.hariscss .electricheader img{
+  width:100%;
+  height:auto;
+  border-radius:20px;
+}
+
+/*Haris's styles end*/
